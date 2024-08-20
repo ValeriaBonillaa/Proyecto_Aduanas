@@ -1,0 +1,456 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+nav {
+    background-color: #D3D3D3;
+    padding: 15px 0;
+}
+  
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+  
+nav ul li {
+    display: inline;
+}
+  
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    background-color: #D3D3D3;
+    padding: 24.5px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+  
+footer p {
+    margin: 0;
+}
+  
+.encabezado {
+    background-color: #D3D3D3;
+    text-align: center;
+    padding: 30px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    width: 35%;
+    height: 10%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.logo1 {
+    width: 50%;
+    height: auto;
+    margin-top: 60px;
+    margin-left: 140px;
+}
+
+.logo2 {
+    width: 50%;
+    height: auto;
+    margin-top: 60px;
+    margin-left: 140px;
+}
+
+.logo3 {
+    width: 60%;
+    height: auto;
+    margin-top: 130px;
+    margin-left: 140px;
+}
+
+.registro-cliente {
+    width: 90%; 
+    max-width: 400px; 
+    background-color: #F0F0F0;
+    padding: 30px; 
+    border-radius: 30px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+    margin: 50px auto;
+    margin-left: 450px; 
+}
+
+.registro-cliente h1 {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.registro-cliente h2 {
+    font-size: 1em;
+}
+  
+.registro-cliente form {
+    display: flex;
+    flex-direction: column;
+}
+  
+.registro-cliente .nombre-apellido {
+    display: flex;
+    gap: 10px;
+}
+  
+.registro-cliente .nombre-apellido input {
+    flex: 1;
+}
+  
+.registro-cliente input,
+.registro-cliente button {
+    margin: 8px 0; 
+    padding: 8px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    font-size: 0.85em; 
+}
+  
+.registro-cliente button {
+    background-color: #D3D3D3;
+    border: none;
+    cursor: pointer;
+}
+  
+.registro-cliente button[type="submit"] {
+    background-color: #a9a9a9;
+    color: white;
+}
+  
+.registro-cliente button[type="button"] {
+    background-color: #A9A9A9;
+    color: white;
+}
+
+.proceso {
+    width: 90%; 
+    max-width: 400px; 
+    background-color: #F0F0F0;
+    padding: 30px; 
+    border-radius: 30px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+    margin: 50px auto;
+    margin-left: 450px; 
+}
+
+.proceso h1 {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.proceso h2 {
+    font-size: 1em;
+}
+
+.proceso p {
+    font-size: 0.9em;
+}
+
+.proceso p1 {
+    font-size: 0.8em;
+    margin-top: 10px;
+}
+  
+.proceso form {
+    display: flex;
+    flex-direction: column;
+}
+  
+.proceso .nombre-apellido {
+    display: flex;
+    gap: 10px;
+}
+  
+.proceso .nombre-apellido input {
+    flex: 1;
+}
+  
+.proceso .nombre-apellido select {
+    flex: 1;
+}
+
+.proceso .botones {
+    display: flex;
+    gap: 10px;
+}
+  
+.proceso .botones button{
+    flex: 1;
+}
+  
+.proceso input,
+.proceso select,
+.proceso button,
+.proceso textarea {
+    margin: 8px 0; 
+    padding: 8px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    font-size: 0.85em; 
+    font-family: inherit;
+}
+
+.proceso-checkbox {
+    display: flex;
+    gap: 20px; 
+    align-items: center; 
+    
+}
+
+.proceso-checkbox input[type="checkbox"] {
+    margin: 0; 
+    flex: 1;
+}
+
+  
+.proceso button {
+    background-color: #D3D3D3;
+    border: none;
+    cursor: pointer;
+}
+  
+.proceso button[type="submit"] {
+    background-color: #A9A9A9;
+    color: white;
+}
+  
+.proceso button[type="button"] {
+    background-color: #A9A9A9;
+    color: white;
+}
+  
+.link {
+    color: black;
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+.registro-usuario {
+    width: 400px;
+    background-color: #F0F0F0;
+    padding: 35px;
+    border-radius: 30px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    margin-right: 150px;
+}
+
+.registro-usuario h1 {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.registro-usuario p {
+    text-align: center;
+    font-size: 0.9em;
+}
+  
+.registro-usuario form {
+    display: flex;
+    flex-direction: column;
+}
+  
+.registro-usuario input,
+.registro-usuario button {
+    margin: 8px 0; 
+    padding: 8px; 
+    border: 1px solid #ccc;
+    border-radius: 6px; 
+    font-size: 0.88em; 
+}
+  
+.registro-usuario button {
+    background-color: #D3D3D3;
+    border: none;
+    cursor: pointer;
+}
+  
+.registro-usuario button[type="submit"] {
+    background-color: #A9A9A9;
+    color: white;
+}
+  
+.registro-usuario button[type="button"] {
+    background-color: #A9A9A9;
+    color: white;
+
+}
+
+.usuario1 {
+    width: 500px;
+    background-color: #F0F0F0;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    margin-right: 150px;
+}
+
+.usuario1 h1 {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.usuario1 h2 {
+    font-size: 1em;
+}
+
+.usuario1 p {
+    text-align: center;
+    font-size: 0.9em;
+}
+  
+.usuario1 form {
+    display: flex;
+    flex-direction: column;
+}
+  
+.usuario1 input,
+.usuario1 button {
+    margin: 8px 0; 
+    padding: 8px; 
+    border: 1px solid #ccc;
+    border-radius: 6px; 
+    font-size: 0.88em; 
+}
+  
+.usuario1 button {
+    background-color: #D3D3D3;
+    border: none;
+    cursor: pointer;
+}
+  
+.usuario1 button[type="submit"] {
+    background-color: #A9A9A9;
+    color: white;
+}
+  
+.usuario1 button[type="button"] {
+    background-color: #A9A9A9;
+    color: white;
+}
+
+.usuario1 .nombre-apellido {
+    display: flex;
+    gap: 10px;
+}
+  
+.usuario1 .nombre-apellido input {
+    flex: 1;
+}
+
+.usuario1 .error {
+    color: red;
+    font-size: 0.840em; 
+    
+}
+
+.usuario1 .error-input {
+    border: 1px solid red; 
+}  
+
+.registro-cliente .error {
+    color: red;
+    font-size: 0.840em; 
+    
+}
+.proceso .error {
+    color: red;
+    font-size: 0.840em; 
+    
+}
+
+.registro-cliente .error-input {
+    border: 1px solid red; 
+}  
+
+.proceso .error-input {
+    border: 1px solid red; 
+}  
+
+.registro-usuario .error {
+    color: red;
+    font-size: 0.840em; 
+    
+}
+.registro-usuario .alert-success {
+    color: rgb(45, 136, 193);
+    font-size: 0.840em; 
+}
+
+.registro-usuario .success {
+
+    color: #155724; 
+    font-size: 0.840em; 
+
+}
+
+.registro-usuario .error-input {
+    border: 1px solid red; 
+}  
+
+.cuenta {
+    position: relative;
+    display: inline-block;
+}
+
+.cuenta-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    padding: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.cuenta-content p {
+    margin: 10px 0;
+    color: #333;
+}
+
+.cuenta-content form {
+    margin: 0;
+}
+
+.cuenta-content form button {
+    padding: 10px 20px;
+    background-color: #ccc;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.cuenta:hover .cuenta-content {
+    display: block;
+}
